@@ -18,6 +18,13 @@
     <div style="color: red;">
       <%= alert %>
     </div>
+
+    <div>
+      <ul>
+        <li><%= link_to "Movies", root_path %></li>
+        <li><%= link_to "Directors", directors_path %></li>
+      </ul>
+    </div>
     
     <%= yield %>
   </body>
